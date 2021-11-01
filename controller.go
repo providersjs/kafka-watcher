@@ -44,7 +44,7 @@ import (
 	listers "k8s.io/sample-controller/pkg/generated/listers/samplecontroller/v1alpha1"
 )
 
-const controllerAgentName = "kafka-watch-controller"
+const controllerAgentName = "sample-controller"
 
 const (
 	// SuccessSynced is used as part of the Event 'reason' when a Foo is synced
